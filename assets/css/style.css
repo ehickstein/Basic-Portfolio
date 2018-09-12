@@ -1,0 +1,21 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color:  #777777;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
