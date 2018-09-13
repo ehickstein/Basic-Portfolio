@@ -3,19 +3,28 @@ body{
     margin: 0 auto;
 
 }
-ul{
-    list-style-type: none;
+nav{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+nav ul{
     margin: 0;
     padding: 0;
 }
-li{
+nav li{
+    list-style: none;
     float: right;
-}
-li a{
-    display: block;
-    color:  #777777;
-    background-color: #ffffff;
     text-align: center;
-    padding: 14px;
+}
+nav li a{
+    display: block;
     text-decoration: none;
+    margin-right: 12px;
+    width: 4em;
+    padding: 8px;
+    line-height: 1.50em;
+    color: #000;
 }
